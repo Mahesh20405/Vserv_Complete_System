@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "name": "razorpay",
+      "type": "com.vserv.core.config.RazorpayProperties",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "resend",
+      "type": "com.vserv.core.config.ResendProperties",
+      "sourceType": "com.vserv.core.config.ResendProperties"
+    },
+    {
+      "name": "resend.api",
+      "type": "com.vserv.core.config.ResendProperties$Api",
+      "sourceType": "com.vserv.core.config.ResendProperties",
+      "sourceMethod": "public com.vserv.core.config.ResendProperties.Api getApi() "
+    },
+    {
+      "name": "resend.sender",
+      "type": "com.vserv.core.config.ResendProperties$Sender",
+      "sourceType": "com.vserv.core.config.ResendProperties",
+      "sourceMethod": "public com.vserv.core.config.ResendProperties.Sender getSender() "
+    },
+    {
+      "name": "twilio",
+      "type": "com.vserv.core.config.TwilioProperties",
+      "sourceType": "com.vserv.core.config.TwilioProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "razorpay.company-name",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "razorpay.currency",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "razorpay.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "razorpay.key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "razorpay.key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.RazorpayProperties"
+    },
+    {
+      "name": "resend.api.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.ResendProperties$Api"
+    },
+    {
+      "name": "resend.api.key",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.ResendProperties$Api"
+    },
+    {
+      "name": "resend.sender.email",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.ResendProperties$Sender"
+    },
+    {
+      "name": "resend.sender.name",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.ResendProperties$Sender"
+    },
+    {
+      "name": "twilio.account-sid",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.TwilioProperties"
+    },
+    {
+      "name": "twilio.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.TwilioProperties"
+    },
+    {
+      "name": "twilio.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.vserv.core.config.TwilioProperties"
+    },
+    {
+      "name": "twilio.phone-number",
+      "type": "java.lang.String",
+      "sourceType": "com.vserv.core.config.TwilioProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

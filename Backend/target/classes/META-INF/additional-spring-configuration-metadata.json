@@ -1,0 +1,89 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Base64-encoded secret used to sign JWT tokens."
+    },
+    {
+      "name": "jwt.access-token-expiration-ms",
+      "type": "java.lang.Long",
+      "description": "Access token expiration time in milliseconds."
+    },
+    {
+      "name": "jwt.refresh-token-expiration-ms",
+      "type": "java.lang.Long",
+      "description": "Refresh token expiration time in milliseconds."
+    },
+    {
+      "name": "vserv.cors.allowed-origins",
+      "type": "java.lang.String",
+      "description": "Comma-separated list of allowed origins for CORS."
+    },
+    {
+      "name": "resend.api.key",
+      "type": "java.lang.String",
+      "description": "API key used to authenticate with Resend."
+    },
+    {
+      "name": "resend.api.base-url",
+      "type": "java.lang.String",
+      "description": "Base URL for the Resend API."
+    },
+    {
+      "name": "resend.sender.email",
+      "type": "java.lang.String",
+      "description": "Default sender email address for outbound emails."
+    },
+    {
+      "name": "resend.sender.name",
+      "type": "java.lang.String",
+      "description": "Default sender display name for outbound emails."
+    },
+    {
+      "name": "razorpay.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables Razorpay payment integration."
+    },
+    {
+      "name": "razorpay.key-id",
+      "type": "java.lang.String",
+      "description": "Razorpay API key id."
+    },
+    {
+      "name": "razorpay.key-secret",
+      "type": "java.lang.String",
+      "description": "Razorpay API key secret."
+    },
+    {
+      "name": "razorpay.currency",
+      "type": "java.lang.String",
+      "description": "Default currency used for Razorpay orders."
+    },
+    {
+      "name": "razorpay.company-name",
+      "type": "java.lang.String",
+      "description": "Display company name used in Razorpay checkout metadata."
+    },
+    {
+      "name": "twilio.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables Twilio SMS integration."
+    },
+    {
+      "name": "twilio.account-sid",
+      "type": "java.lang.String",
+      "description": "Twilio account SID."
+    },
+    {
+      "name": "twilio.auth-token",
+      "type": "java.lang.String",
+      "description": "Twilio auth token."
+    },
+    {
+      "name": "twilio.phone-number",
+      "type": "java.lang.String",
+      "description": "Twilio sender phone number."
+    }
+  ]
+}
